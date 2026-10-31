@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: task-api
+  description: task-api backend API
+  annotations:
+    backstage.io/kubernetes-id: task-api
+    github.com/project-slug: SparrowX-Labs/task-api
+  tags:
+    - task-api
+    - application
+    - backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:platform-team
