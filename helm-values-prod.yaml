@@ -18,7 +18,7 @@ database:
   name: task-db
   engine: postgres
   port: 5432
-  host: task-api-postgres.prod.sparrowx.internal
+  host: taskdb-postgres.prod.sparrowx.internal
 
 
 servicemonitor:
